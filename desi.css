@@ -1,0 +1,29 @@
+h1 {
+  color: rgb(28, 28, 134);
+  font-size: 100px;
+  background-color: rgb(230, 137, 137);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1IfqljgM9DleAUqO0Q9EX0bbmUDwfBe6AqhXlnCmnbt7GVwfKg");
+}
+
+
+
+
+
+
+#intro {
+  font-size: 28px;
+  color: rgb(161, 37, 37);
+}
+
+body {
+  background-color: rgb(137, 137, 230);
+  background-image: url("https://cdn.shopify.com/s/files/1/0987/6486/products/Cat_Strides_repeat_even_rows_x_flip_large.png?v=1489005308");
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 28px;
+}

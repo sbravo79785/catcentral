@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<title>Things I need to write</title>
+  </head>
+  <body>
+
+<p id = "description"> </p>
+
+<script>
+  var current_age = 17;
+  var Drawings = ["Drawing"];
+  var age_dec = age_decades(current_age);
+  var age_cent = age_centuries(current_age);
+  var num_of_draw = num_Drawings(Drawings);
+
+  function age_decades(x){
+    return x/10;
+  }
+
+  function age_centuries(y){
+    return y/100;
+  }
+
+  function num_Drawings(z){
+    return z.length;
+  }
+
+  document.getElementById("description").innerHTML = "I have lived " + age_dec + "decades and " + age_cent + "centuries" + num_of_draw;
+
+
+
+
+
+</script>
+
+
+  </body>
+</html>
